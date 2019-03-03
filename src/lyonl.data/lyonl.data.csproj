@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>© Copyright 2018 LyonL Interactive, Inc. All rights reserved.</Copyright>
+    <RepositoryUrl>https://github.com/lyonl/lyonl.data</RepositoryUrl>
+    <Company>LyonL Interactive, Inc.</Company>
+    <Authors>LyonL</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+  </ItemGroup>
+
+</Project>
